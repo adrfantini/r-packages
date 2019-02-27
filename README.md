@@ -4,8 +4,7 @@
 Package | Description
 ------- | --------
 ggplot2 | The best plotting package, period
-tmap | Advanced plotting generic program using both lattice and ggplot
-lattice | Alternative advanced plotting framework, imho inferior to ggplot
+tmap | Advanced plotting generic program using both `lattice` and `ggplot`
 marmap | Import, analyse and plot bathymetries
 cartography | Thematic cartography
 
@@ -39,23 +38,26 @@ ggstatsplot | Functions to provide ggplots with added very detailed statistical 
 #### INTERACTIVE PLOTTING/MANIPULATION (http://www.htmlwidgets.org/showcase_leaflet.html)
 Package | Description
 ------- | --------
-rthreejs
-plotly| Interactive plotting with D3
-mapview | Visualize spatial data
-mapedit | Edit spatial data, similar to mapview
+rthreejs | Interactive 3D scatterplots and globe plots using three.js
+plotly | Interactive plotting with D3
+mapview | Visualize spatial data using `leaflet`
+mapedit | Edit spatial data using `leaflet`
 mapdeck
-leaflet
-leafgl| fast web gl rendering of features on leaflet maps
-timevis
+leaflet | R interface to the `leaflet` library for interactive maps
+leafgl | Faster web gl rendering of features on `leaflet` maps
+timevis | nteractive timeline/timeseries visualizations
 r2d3| Low-level D3.js visualizations
-flexdashboard
+rAmCharts | Interactive charts based on amcharts.js
 
 #### DASHBOARDS
 Package | Description
 ------- | --------
 shiny
-shinyjs
+advanced-shiny | Not a package, but still... https://github.com/daattali/advanced-shiny
+shinyjs | Set of functions to complete missing `shiny` features
+shinyWidgets | Set of additional `shiny` widgets
 shinydashboard
+flexdashboard | Easy interactive dashboards for R
 
 #### PLOTTING OVER TILED (WEB) MAPS
 Package | Description
@@ -124,13 +126,16 @@ PCICt | 360-day calendars
 #### PARALLEL COMPUTING
 Package | Description
 ------- | --------
-promises | Especially useful applied to multi-user Shiny apps or Shiny apps with long and slow tasks
-future | The base for promises. Execute R code asyncronously in the background, potentially with mnay cores
-future.batchtools| Extension for future to provide PBS, SLURM... access
-furrr| purrr... in the future
-foreach
-parallel
-batchtools
+promises | Especially useful applied to multi-user Shiny apps or Shiny apps with long and slow tasks. Uses `future`.
+future | The base for promises. Execute R code asyncronously in the background, potentially with many cores
+future.batchtools | Extension for future to provide PBS, SLURM... access via `batchtools`
+future.apply |  Parallel `apply` integration with `future`s
+furrr | purrr... in the future
+foreach | Simple parallelised for loops
+batchtools | Provides tools to interact with batch schedulers such as SLURM, TORQUE, OpenPBS...
+pbapply | Progress bars with `mcapply` and `parLapply` made easy. Adds a significant overhead
+pbmcapply | Parallel `apply` with progress bars, uses `future`. Fastest progress bar implementation by far, but only ptovides `lapply` and `mapply`
+
 
 #### LOGGING
 Package | Description
@@ -155,9 +160,17 @@ Package | Description
 units
 udunits2
 
+#### DEVELOPMENT
+Package | Description
+------- | --------
+profvis | Profile your code, and visualise performance interactively
+
 #### MISC
 Package | Description
 ------- | --------
+drake | Toll for reproducible research: define your planned workflow, rerun only what changed
+styler | Style and beautify your R code
+knitr | Elegant, flexible, and fast dynamic report generation
 broom | Tidy and prepare for plotting the output of common model functions / fits
 forcats | Tidy tools for handling factors
 tidytext

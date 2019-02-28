@@ -93,6 +93,7 @@ maptools
 Package | Description
 ------- | --------
 sf| Simple features for R
+lwgeom | sf bindings to the liblwgeom library
 rmapshaper| very fast and accurate polygon simplification, extraction of lines from polygons, and much more
 smoothr | Smooth polygons using different methods, integrates with sf
 geometa | Write, read & validate geographic metadata; extends sf

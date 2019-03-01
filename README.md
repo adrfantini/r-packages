@@ -38,13 +38,13 @@ ggstatsplot | Functions to provide ggplots with added very detailed statistical 
 #### INTERACTIVE PLOTTING/MANIPULATION (http://www.htmlwidgets.org/showcase_leaflet.html)
 Package | Description
 ------- | --------
-rthreejs | Interactive 3D scatterplots and globe plots using three.js
-plotly | Interactive plotting with D3
-mapview | Visualize spatial data using `leaflet`
+plotly | Interactive plotting with D3, can also import `ggplot` plots
+mapview | Visualize spatial data using `leaflet`, works with `sf` and `raster`
 mapedit | Edit spatial data using `leaflet`
-mapdeck
+[mapdeck](https://github.com/SymbolixAU/mapdeck) | R interface to Deck.gl and Mapbox, interactive 2d/3d maps
 leaflet | R interface to the `leaflet` library for interactive maps
 leafgl | Faster web gl rendering of features on `leaflet` maps
+[rthreejs](https://github.com/bwlewis/rthreejs) | Interactive 3D scatterplots and globe plots using three.js
 timevis | nteractive timeline/timeseries visualizations
 r2d3| Low-level D3.js visualizations
 rAmCharts | Interactive charts based on amcharts.js
@@ -52,8 +52,8 @@ rAmCharts | Interactive charts based on amcharts.js
 #### DASHBOARDS
 Package | Description
 ------- | --------
-shiny
-advanced-shiny | Not a package, but still... https://github.com/daattali/advanced-shiny
+shiny | The go-to R package for interactive web interfaces, dashboards
+[advanced-shiny](https://github.com/daattali/advanced-shiny) | Not a package, but helpful resource for shiny hints
 shinyjs | Set of functions to complete missing `shiny` features
 shinyWidgets | Set of additional `shiny` widgets
 shinydashboard
@@ -165,12 +165,13 @@ udunits2
 Package | Description
 ------- | --------
 profvis | Profile your code, and visualise performance interactively
+styler | Style and beautify your R code
+optparse| Best package for parsing input
 
 #### MISC
 Package | Description
 ------- | --------
 drake | Toll for reproducible research: define your planned workflow, rerun only what changed
-styler | Style and beautify your R code
 knitr | Elegant, flexible, and fast dynamic report generation
 broom | Tidy and prepare for plotting the output of common model functions / fits
 forcats | Tidy tools for handling factors
@@ -179,7 +180,6 @@ glue| Handy replacement for paste()
 stringr | Better string handling
 readr | Tidy tools for reading data into R
 skimr | Very nice package for computing and showing better summary statistics. Very, very nice.
-optparse| Best package for parsing input
 
 #### ADDITIONAL LINKS
 - https://cloud.r-project.org/web/views/SpatioTemporal.html

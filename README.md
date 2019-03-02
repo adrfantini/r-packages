@@ -126,8 +126,8 @@ Package | Description
 ------- | --------
 dplyr
 data.table| Similar in scope to dplyr, but in general quite a bit faster, albeit with less clear grammar. Also provides the best text file reader, fread
-tidyr
-purrr
+tidyr | Set of functions to help tidy data
+purrr | Enhanced functional programming with R, via `map*` functions
 
 #### DEALING WITH TIME
 Package | Description
@@ -190,7 +190,7 @@ tidytext
 [colorout](https://github.com/jalvesaq/colorout) | colorize your R terminal
 glue| Handy replacement for paste()
 stringr | Better string handling
-readr | Tidy tools for reading data into R
+readr | Fast and friendly tidy way to read rectangular data (like csv, tsv, and fwf)
 skimr | Very nice package for computing and showing better summary statistics. Very, very nice.
 
 #### TAKS VIEWS

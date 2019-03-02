@@ -133,8 +133,7 @@ purrr | Enhanced functional programming with R, via `map*` functions
 Package | Description
 ------- | --------
 lubridate | Tidy date handling package
-tibbletime | Tools to integrate `tibble`s with tidy time manipualtion (aggregation, etc.)
-tsibble
+tsibble | Tools to integrate `tibble`s with tidy time manipualtion (aggregation, etc.)
 timetk
 zoo
 xts

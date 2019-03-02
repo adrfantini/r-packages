@@ -35,6 +35,17 @@ ggpol | A fem geometris, some of which linked to politics (parliament plots)
 ggperiodic| Periodic plots, such as 360degree and 24-h circle plots without jumps in coord_polar
 ggstatsplot | Functions to provide ggplots with added very detailed statistical information
 
+#### COLORS AND SCALES
+Package | Description
+------- | --------
+RColorBrewer| Provides Cynthia Brewer color palettes, integrates with ggplot2
+[scales](https://scales.r-lib.org/) | Create color scales, integrates some missing features in `ggplot2`
+colorpiler| Additional color palettes, including Brewer's. ggplot integration supported
+colourpicker
+colourvalues
+colorspace
+scico | Colour palettes developed by Fabio Crameri
+
 #### INTERACTIVE PLOTTING/MANIPULATION (http://www.htmlwidgets.org/showcase_leaflet.html)
 Package | Description
 ------- | --------
@@ -65,24 +76,14 @@ Package | Description
 ggmap| Oldish interface to add google-like maps to ggplot
 googleway
 RgoogleMaps
-tiler #Package to adapt background maps to a given CRS, ready to plot with leaflet
-
-#### COLORS
-Package | Description
-------- | --------
-RColorBrewer| Provides Cynthia Brewer color palettes, integrates with ggplot2
-colorpiler| Additional color palettes, including Brewer's. ggplot integration supported
-colourpicker
-colourvalues
-colorspace
-scico | Colour palettes developed by Fabio Crameri
+tiler #Package to adapt background maps to a given CRS, ready to plot with `leaflet`
 
 #### SPATIAL BOUNDARIES (maps)
 Package | Description
 ------- | --------
-rnaturalearth
-rnaturalearthhires
-rnaturalearthdata
+rnaturalearth | Go-to package for boundaries and other spatial features data from [naturalearthdata](http://www.naturalearthdata.com/)
+rnaturalearthhires | High resolution data for `rnaturalearth`
+rnaturalearthdata | Additional resolution data for `rnaturalearth`
 rworldmap
 rworldxtra
 maps
@@ -101,8 +102,24 @@ geometa | Write, read & validate geographic metadata; extends sf
 #### RASTER DATA MANIPULATION
 Package | Description
 ------- | --------
-raster
-stars
+raster | The de-facto standard raster data manipulation tool in R. Has TONS of features but its desing is somewhat old, and new features are not added frequently
+stars | A new package which integrates extremely well with `sf` and provides some advantages over `raster`, at the cost of features
+gdalcubes_R | New pacakge to deal with GDALcubes, which are collections of Earth Observation images as on demand data cubes (or multidimensional arrays)
+
+#### NETCDF DATA HANDLING
+Package | Description
+------- | --------
+ncdf4 | The main low level package for dealing with netCDF data. Has some drawbacks
+RNetCDF | alternative package to `ncdf4`. Works better, but the syntax and usability are terrible
+tidync | modern, `tidyverse`-like way to access netcdf data
+ncmeta | Easy metadata retrieval from netCDF files
+netcdfgeom | Reads and writes geometry data (points, lines and polygons) to/from netCDF files
+
+#### UNIT HANDLING
+Package | Description
+------- | --------
+units | Deal with units in a clear and automatic way, using `udunits2`
+udunits2 | R bindings to the Unidata `udunits2` library
 
 #### HANDLING TABLES
 Package | Description
@@ -136,7 +153,7 @@ foreach | Simple parallelised for loops
 batchtools | Provides tools to interact with batch schedulers such as SLURM, TORQUE, OpenPBS...
 pbapply | Progress bars with `mcapply` and `parLapply` made easy. Adds a significant overhead
 pbmcapply | Parallel `apply` with progress bars, uses `future`. Fastest progress bar implementation by far, but only ptovides `lapply` and `mapply`
-
+clustermq | Very low overhead multiprocessing via `ZeroMQ`. Has live load balancing
 
 #### LOGGING
 Package | Description
@@ -147,26 +164,18 @@ assertr| Error controls in magrittr pipelines
 logging
 log4r
 
-#### NETCDF DATA HANDLING
-Package | Description
-------- | --------
-ncdf4
-tidync
-ncmeta
-RNetCDF
-
-#### UNIT HANDLING
-Package | Description
-------- | --------
-units
-udunits2
-
 #### DEVELOPMENT
 Package | Description
 ------- | --------
 profvis | Profile your code, and visualise performance interactively
 styler | Style and beautify your R code
-optparse| Best package for parsing input
+optparse | Best package for parsing input
+testthat | de facto standard R package for testing packages and functions
+[usethis](https://usethis.r-lib.org/) | Invaluable tools to automate tasks related primarily to the creation of R pacakges
+[pkgdown](https://pkgdown.r-lib.org) | Build website (static html documentation) for your package
+[remotes](https://remotes.r-lib.org/) | Install R packages from GitHub, GitLab, Bitbucket, git, svn repositories, URLs
+[fs](https://fs.r-lib.org/) | Provide cross platform filesystem operations, combines well with `dplyr` and `purrr`
+
 
 #### MISC
 Package | Description
@@ -175,14 +184,20 @@ drake | Toll for reproducible research: define your planned workflow, rerun only
 knitr | Elegant, flexible, and fast dynamic report generation
 broom | Tidy and prepare for plotting the output of common model functions / fits
 forcats | Tidy tools for handling factors
+[nml](https://github.com/jsta/nml) | R interface to Fortran namelists
+reticulate | use Python via R
 tidytext
+[colorout](https://github.com/jalvesaq/colorout) | colorize your R terminal
 glue| Handy replacement for paste()
 stringr | Better string handling
 readr | Tidy tools for reading data into R
 skimr | Very nice package for computing and showing better summary statistics. Very, very nice.
 
-#### ADDITIONAL LINKS
+#### TAKS VIEWS
 - https://cloud.r-project.org/web/views/SpatioTemporal.html
 - https://cloud.r-project.org/web/views/Spatial.html
 - https://cloud.r-project.org/web/views/TimeSeries.html
+
+#### ADDITIONAL LINKS
 - https://github.com/qinwf/awesome-R
+- http://r-pkgs.had.co.nz/ (how to write R pkgs)

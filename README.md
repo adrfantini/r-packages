@@ -59,6 +59,7 @@ leafgl | Faster web gl rendering of features on `leaflet` maps
 timevis | nteractive timeline/timeseries visualizations
 r2d3| Low-level D3.js visualizations
 rAmCharts | Interactive charts based on amcharts.js
+dygraphs | Yet another graphical timeseries plotter
 
 #### DASHBOARDS
 Package | Description
@@ -68,7 +69,7 @@ shiny | The go-to R package for interactive web interfaces, dashboards
 shinyjs | Set of functions to complete missing `shiny` features
 shinyWidgets | Set of additional `shiny` widgets
 shinydashboard
-flexdashboard | Easy interactive dashboards for R
+flexdashboard | Easy interactive dashboards for R. Also integrates with `rmarkdown`
 
 #### PLOTTING OVER TILED (WEB) MAPS
 Package | Description
@@ -174,6 +175,7 @@ testthat | de facto standard R package for testing packages and functions
 [pkgdown](https://pkgdown.r-lib.org) | Build website (static html documentation) for your package
 [remotes](https://remotes.r-lib.org/) | Install R packages from GitHub, GitLab, Bitbucket, git, svn repositories, URLs
 [fs](https://fs.r-lib.org/) | Provide cross platform filesystem operations, combines well with `dplyr` and `purrr`
+rcpp | R interface to C++
 
 #### RSTUDIO
 Package | Description
@@ -185,6 +187,7 @@ Package | Description
 ------- | --------
 drake | Toll for reproducible research: define your planned workflow, rerun only what changed
 knitr | Elegant, flexible, and fast dynamic report generation
+[rmarkcown](https://rmarkdown.rstudio.com/) | Generate documents including code and plots
 broom | Tidy and prepare for plotting the output of common model functions / fits
 forcats | Tidy tools for handling factors
 [nml](https://github.com/jsta/nml) | R interface to Fortran namelists
@@ -202,5 +205,6 @@ skimr | Very nice package for computing and showing better summary statistics. V
 - https://cloud.r-project.org/web/views/TimeSeries.html
 
 #### ADDITIONAL LINKS
-- https://github.com/qinwf/awesome-R
+- https://github.com/qinwf/awesome-R ; https://awesome-r.com/
 - http://r-pkgs.had.co.nz/ (how to write R pkgs)
+- https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages

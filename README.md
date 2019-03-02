@@ -76,7 +76,7 @@ Package | Description
 ggmap| Oldish interface to add google-like maps to ggplot
 googleway
 RgoogleMaps
-tiler #Package to adapt background maps to a given CRS, ready to plot with `leaflet`
+tiler | Package to adapt background maps to a given CRS, ready to plot with `leaflet`
 
 #### SPATIAL BOUNDARIES (maps)
 Package | Description

@@ -175,6 +175,10 @@ testthat | de facto standard R package for testing packages and functions
 [remotes](https://remotes.r-lib.org/) | Install R packages from GitHub, GitLab, Bitbucket, git, svn repositories, URLs
 [fs](https://fs.r-lib.org/) | Provide cross platform filesystem operations, combines well with `dplyr` and `purrr`
 
+#### RSTUDIO
+Package | Description
+------- | --------
+[addinslist](https://github.com/daattali/addinslist) | List of useful R studio addins
 
 #### MISC
 Package | Description

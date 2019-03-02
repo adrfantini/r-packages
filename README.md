@@ -132,9 +132,9 @@ purrr | Enhanced functional programming with R, via `map*` functions
 #### DEALING WITH TIME
 Package | Description
 ------- | --------
-tibbletime
-tsibble
 lubridate | Tidy date handling package
+tibbletime | Tools to integrate `tibble`s with tidy time manipualtion (aggregation, etc.)
+tsibble
 timetk
 zoo
 xts
@@ -146,9 +146,9 @@ Package | Description
 ------- | --------
 promises | Especially useful applied to multi-user Shiny apps or Shiny apps with long and slow tasks. Uses `future`.
 future | The base for promises. Execute R code asyncronously in the background, potentially with many cores
-future.batchtools | Extension for future to provide PBS, SLURM... access via `batchtools`
+future.batchtools | `future` extension to provide PBS, SLURM... access via `batchtools`
 future.apply |  Parallel `apply` integration with `future`s
-furrr | purrr... in the future
+furrr | `purrr`... in the `future`
 foreach | Simple parallelised for loops
 batchtools | Provides tools to interact with batch schedulers such as SLURM, TORQUE, OpenPBS...
 pbapply | Progress bars with `mcapply` and `parLapply` made easy. Adds a significant overhead

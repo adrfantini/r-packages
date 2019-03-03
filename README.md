@@ -135,6 +135,7 @@ Package | Description
 ------- | --------
 lubridate | Tidy date handling package
 [tsibble](https://github.com/tidyverts/tsibble) | Tools to integrate `tibble`s with tidy time manipualtion (aggregation, etc.). Also provides rolling means and integrates with `future`s!
+[feasts](https://github.com/tidyverts/feasts) | Extend `tsibble` with additional functions, compositions, and visualisations
 timetk
 zoo
 xts
@@ -209,7 +210,7 @@ stringr | Better string handling
 readr | Fast and friendly tidy way to read rectangular data (like csv, tsv, and fwf)
 skimr | Very nice package for computing and showing better summary statistics. Very, very nice.
 
-#### TAKS VIEWS
+#### TASK VIEWS
 - https://cloud.r-project.org/web/views/SpatioTemporal.html
 - https://cloud.r-project.org/web/views/Spatial.html
 - https://cloud.r-project.org/web/views/TimeSeries.html

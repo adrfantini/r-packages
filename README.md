@@ -198,7 +198,7 @@ Package | Description
 ------- | --------
 drake | Toll for reproducible research: define your planned workflow, rerun only what changed
 knitr | Elegant, flexible, and fast dynamic report generation
-[rmarkcown](https://rmarkdown.rstudio.com/) | Generate documents including code and plots
+[rmarkdown](https://rmarkdown.rstudio.com/) | Generate documents including code and plots
 broom | Tidy and prepare for plotting the output of common model functions / fits
 forcats | Tidy tools for handling factors
 [nml](https://github.com/jsta/nml) | R interface to Fortran namelists

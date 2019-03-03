@@ -171,12 +171,14 @@ Package | Description
 profvis | Profile your code, and visualise performance interactively
 styler | Style and beautify your R code
 optparse | Best package for parsing input
+[reprex](https://github.com/tidyverse/reprex) | Easily create reproducible examples fir SO, GitHub, etc.
 testthat | de facto standard R package for testing packages and functions
 [usethis](https://usethis.r-lib.org/) | Invaluable tools to automate tasks related primarily to the creation of R pacakges
 [pkgdown](https://pkgdown.r-lib.org) | Build website (static html documentation) for your package
 [remotes](https://remotes.r-lib.org/) | Install R packages from GitHub, GitLab, Bitbucket, git, svn repositories, URLs
 [fs](https://fs.r-lib.org/) | Provide cross platform filesystem operations, combines well with `dplyr` and `purrr`
 rcpp | R interface to C++
+
 
 #### RSTUDIO
 Package | Description

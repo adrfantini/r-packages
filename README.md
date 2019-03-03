@@ -141,6 +141,13 @@ xts
 forecast
 PCICt | 360-day calendars
 
+#### DATABASES
+Package | Description
+------- | --------
+[dbplyr](https://github.com/tidyverse/dbplyr) | `dplyr` interface for (also online) databasesl; uses `DBI`
+RSQLite | R interface to SQL
+[DBI](https://dbi.r-dbi.org/) | Common interface between R and Database Management Systems
+
 #### PARALLEL COMPUTING
 Package | Description
 ------- | --------
@@ -171,7 +178,7 @@ Package | Description
 profvis | Profile your code, and visualise performance interactively
 styler | Style and beautify your R code
 optparse | Best package for parsing input
-[reprex](https://github.com/tidyverse/reprex) | Easily create reproducible examples fir SO, GitHub, etc.
+[reprex](https://github.com/tidyverse/reprex) | Easily create reproducible examples for SO, GitHub, etc.
 testthat | de facto standard R package for testing packages and functions
 [usethis](https://usethis.r-lib.org/) | Invaluable tools to automate tasks related primarily to the creation of R pacakges
 [pkgdown](https://pkgdown.r-lib.org) | Build website (static html documentation) for your package

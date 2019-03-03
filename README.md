@@ -144,8 +144,8 @@ PCICt | 360-day calendars
 #### PARALLEL COMPUTING
 Package | Description
 ------- | --------
-promises | Especially useful applied to multi-user Shiny apps or Shiny apps with long and slow tasks. Uses `future`.
-future | The base for promises. Execute R code asyncronously in the background, potentially with many cores
+future | modern parallel execution API supporting several backends. Execute R code asyncronously in the background, potentially with many cores
+[promises](https://rstudio.github.io/promises/) | Asyncronous programming. Especially useful applied to multi-user Shiny apps or Shiny apps with long and slow tasks. Uses `future`.
 future.batchtools | `future` extension to provide PBS, SLURM... access via `batchtools`
 future.apply |  Parallel `apply` integration with `future`s
 furrr | `purrr`... in the `future`

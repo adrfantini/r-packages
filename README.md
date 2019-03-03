@@ -151,6 +151,7 @@ future.apply |  Parallel `apply` integration with `future`s
 furrr | `purrr`... in the `future`
 foreach | Simple parallelised for loops
 batchtools | Provides tools to interact with batch schedulers such as SLURM, TORQUE, OpenPBS...
+[rslurm](https://github.com/SESYNC-ci/rslurm) | Yet another tool to submit and manage SLURM jobs
 pbapply | Progress bars with `mcapply` and `parLapply` made easy. Adds a significant overhead
 pbmcapply | Parallel `apply` with progress bars, uses `future`. Fastest progress bar implementation by far, but only ptovides `lapply` and `mapply`
 clustermq | Very low overhead multiprocessing via `ZeroMQ`. Has live load balancing

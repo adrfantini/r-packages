@@ -5,6 +5,7 @@ Package | Description
 ------- | --------
 ggplot2 | The best plotting package, period
 tmap | Advanced plotting generic program using both `lattice` and `ggplot`
+[tmaptools](https://github.com/mtennekes/tmaptools) | Extension to the `tmap` package
 marmap | Import, analyse and plot bathymetries
 cartography | Thematic cartography
 
@@ -25,7 +26,7 @@ ggradar | Radar charts with ggplot
 ggrepel | Repelling labels
 ggextra | Marginal plots
 ggquiver| Add arrows and vectors on top of plots
-multiscales | Multivariate color scales
+multiscales | Multivariate color scales. Similar in scope to `tricolore`
 ggridges| Ridgeline plots
 ggpmisc | Adding tables, ridges and valleys, fit equations with R2, density filters
 ggforce | {Zoomed and paginated} facets; {arcs, circles, gradient links, sina (violin-like)} plots, additional transformations
@@ -45,6 +46,7 @@ colourpicker
 colourvalues
 colorspace
 scico | Colour palettes developed by Fabio Crameri
+[tricolore](https://cran.r-project.org/web/packages/tricolore/index.html) | tricolor multivariate color scales, integrated with `ggplot2`. Similar in scope to `multiscales`
 
 #### INTERACTIVE PLOTTING/MANIPULATION (http://www.htmlwidgets.org/showcase_leaflet.html)
 Package | Description
@@ -79,7 +81,7 @@ googleway
 RgoogleMaps
 tiler | Package to adapt background maps to a given CRS, ready to plot with `leaflet`
 
-#### SPATIAL BOUNDARIES (maps)
+#### SPATIAL BOUNDARIES AND DATA (maps, DEMs)
 Package | Description
 ------- | --------
 rnaturalearth | Go-to package for boundaries and other spatial features data from [naturalearthdata](http://www.naturalearthdata.com/)
@@ -90,6 +92,9 @@ rworldxtra
 maps
 mapdata
 maptools
+[rmapzen](https://tarakc02.github.io/rmapzen/) | A Mapzen API client for R
+[mapsap](https://github.com/michaeldorman/mapsapi/) | An interface to some Google Maps APIs, returning `sf` objects
+[elevatr](https://cran.r-project.org/web/packages/elevatr/index.html) | Access elevation data from several web services
 
 #### VECTOR DATA MANIPULATION
 Package | Description
@@ -99,6 +104,8 @@ lwgeom | sf bindings to the liblwgeom library
 rmapshaper| very fast and accurate polygon simplification, extraction of lines from polygons, and much more
 smoothr | Smooth polygons using different methods, integrates with sf
 geometa | Write, read & validate geographic metadata; extends sf
+[areal](https://slu-opengis.github.io/areal/) | Facilitate areal interpolation (with weights) between `sf` polygons and objects
+[concaveman](https://github.com/joelgombin/concaveman) | A very fast 2D concave hull algorithm
 
 #### RASTER DATA MANIPULATION
 Package | Description
@@ -106,6 +113,7 @@ Package | Description
 raster | The de-facto standard raster data manipulation tool in R. Has TONS of features but its desing is somewhat old, and new features are not added frequently
 stars | A new package which integrates extremely well with `sf` and provides some advantages over `raster`, at the cost of features
 gdalcubes_R | New pacakge to deal with GDALcubes, which are collections of Earth Observation images as on demand data cubes (or multidimensional arrays)
+[velox](http://philipphunziker.com/velox/) | Fast raster extraction and manipulation. Very fast. Integrates with `raster` and `sf`
 
 #### NETCDF DATA HANDLING
 Package | Description
@@ -209,6 +217,7 @@ glue| Handy replacement for paste()
 stringr | Better string handling
 readr | Fast and friendly tidy way to read rectangular data (like csv, tsv, and fwf)
 skimr | Very nice package for computing and showing better summary statistics. Very, very nice.
+[eurostat](https://cran.r-project.org/web/packages/eurostat/index.html) | Access, search and download the Eurostat database
 
 #### TASK VIEWS
 - https://cloud.r-project.org/web/views/SpatioTemporal.html

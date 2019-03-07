@@ -69,6 +69,7 @@ Package | Description
 shiny | The go-to R package for interactive web interfaces, dashboards
 [advanced-shiny](https://github.com/daattali/advanced-shiny) | Not a package, but helpful resource for shiny hints
 shinyjs | Set of functions to complete missing `shiny` features
+[shinyBS](https://ebailey78.github.io/shinyBS/) | Add additional functionality and interactivity to your `shiny` applications (last commit 2016)
 shinyWidgets | Set of additional `shiny` widgets
 shinydashboard
 flexdashboard | Easy interactive dashboards for R. Also integrates with `rmarkdown`

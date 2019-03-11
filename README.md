@@ -53,10 +53,12 @@ Package | Description
 ------- | --------
 plotly | Interactive plotting with D3, can also import `ggplot` plots
 mapview | Visualize spatial data using `leaflet`, works with `sf` and `raster`
-mapedit | Edit spatial data using `leaflet`
+[plainview](https://github.com/r-spatial/plainview) | Previously provided with `mapview`, provides interactive (raster) images rendered as plain unprojected canvas
+[cubeview](https://github.com/r-spatial/cubeview) | Previously provided with `mapview`, inteactive 3D visualization of raster data
+[leafpm](https://github.com/r-spatial/leafpm) | Edit spatial data using `mapedit`, using a different editor
 [mapdeck](https://github.com/SymbolixAU/mapdeck) | R interface to Deck.gl and Mapbox, interactive 2d/3d maps
-leaflet | R interface to the `leaflet` library for interactive maps
-leafgl | Faster web gl rendering of features on `leaflet` maps
+leaflet | R interface to the `leaflet` JS library for interactive maps
+[leafgl](https://github.com/r-spatial/leafgl) | Faster web gl rendering of features on `leaflet` maps - currently pre-alpha
 [rthreejs](https://github.com/bwlewis/rthreejs) | Interactive 3D scatterplots and globe plots using three.js
 timevis | nteractive timeline/timeseries visualizations
 r2d3| Low-level D3.js visualizations

@@ -232,3 +232,4 @@ skimr | Very nice package for computing and showing better summary statistics. V
 - https://github.com/qinwf/awesome-R ; https://awesome-r.com/
 - http://r-pkgs.had.co.nz/ (how to write R pkgs)
 - https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages
+- https://geocompr.robinlovelace.net/index.html

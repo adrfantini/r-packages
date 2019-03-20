@@ -65,6 +65,8 @@ timevis | nteractive timeline/timeseries visualizations
 r2d3| Low-level D3.js visualizations
 rAmCharts | Interactive charts based on amcharts.js
 dygraphs | Yet another graphical timeseries plotter
+[vegalite](https://github.com/hrbrmstr/vegalite) | `ggplot2`-like "bindings" for [Vega-Lite](https://vega.github.io/vega-lite/)
+[vegawidget](https://vegawidget.github.io/vegawidget/) | Low level access to the [Vega-Lite](https://vega.github.io/vega-lite/) API, to render as `htmlwidgets` for `shiny` integration 
 
 #### DASHBOARDS
 Package | Description

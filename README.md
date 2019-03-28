@@ -150,8 +150,8 @@ Package | Description
 ------- | --------
 lubridate | Tidy date handling package
 [tsibble](https://github.com/tidyverts/tsibble) | Tools to integrate `tibble`s with tidy time manipualtion (aggregation, etc.). Also provides rolling means and integrates with `future`s!
-[feasts](https://github.com/tidyverts/feasts) | Extend `tsibble` with additional functions, compositions, and visualisations
-timetk
+[feasts](https://github.com/tidyverts/feasts) | Extend `tsibble` with additional functions, compositions, and visualisations; used by `fable`
+[fable](https://github.com/tidyverts/fable) | Methods and tools for displaying and analysing univariate time series forecasts; uses `feasts`
 zoo
 xts
 forecast

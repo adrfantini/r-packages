@@ -36,6 +36,7 @@ ggpirate| pirate plots, a kind of advanced boxplots
 ggpol | A fem geometris, some of which linked to politics (parliament plots)
 ggperiodic| Periodic plots, such as 360degree and 24-h circle plots without jumps in coord_polar
 ggstatsplot | Functions to provide ggplots with added very detailed statistical information
+a[metR](https://github.com/eliocamp/metR) | Awesome package for easier analysis of metereological fields. Provides, other than EOF functions and the like, some amazing `ggplot2` extensions for contouring, highlighting areas, subsetting, better scales nd more
 
 #### COLORS AND SCALES
 Package | Description

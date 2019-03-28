@@ -1,5 +1,5 @@
 # A list of R packages I find useful
-Feel free to suggest a package [opening an issue](https://github.com/adrfantini/r-packages/issues/new)!
+Feel free to suggest a package by [opening an issue](https://github.com/adrfantini/r-packages/issues/new)!
 
 #### GENERIC PLOTTING
 Package | Description

@@ -34,9 +34,11 @@ ggforce | {Zoomed and paginated} facets; {arcs, circles, gradient links, sina (v
 ggbeeswarm| better scatterplots without overlaps
 ggpirate| pirate plots, a kind of advanced boxplots
 ggpol | A fem geometris, some of which linked to politics (parliament plots)
-ggperiodic| Periodic plots, such as 360degree and 24-h circle plots without jumps in coord_polar
+[ggperiodic](https://github.com/eliocamp/ggperiodic) | Periodic plots, such as 360degree and 24-h circle plots without jumps in coord_polar
 ggstatsplot | Functions to provide ggplots with added very detailed statistical information
 [metR](https://github.com/eliocamp/metR) | Awesome package for easier analysis of metereological fields. Provides, other than EOF functions and the like, some amazing `ggplot2` extensions for contouring, highlighting areas, subsetting, better scales nd more
+[ggnewscale](https://github.com/eliocamp/ggnewscale) | Multiple scales with `ggplot2`; very simple to use! Similar to `relayer`
+[relayer](https://github.com/clauswilke/relayer) | Multiple scales with `ggplot2`, similar to `ggnewscale`
 
 #### COLORS AND SCALES
 Package | Description

@@ -106,7 +106,7 @@ maptools
 [mapsap](https://github.com/michaeldorman/mapsapi/) | An interface to some Google Maps APIs, returning `sf` objects
 [elevatr](https://cran.r-project.org/web/packages/elevatr/index.html) | Access elevation data from several web services
 
-#### VECTOR DATA MANIPULATION
+#### SPATIAL DATA MANIPULATION
 Package | Description
 ------- | --------
 sf| Simple features for R
@@ -116,10 +116,7 @@ smoothr | Smooth polygons using different methods, integrates with sf
 geometa | Write, read & validate geographic metadata; extends sf
 [areal](https://slu-opengis.github.io/areal/) | Facilitate areal interpolation (with weights) between `sf` polygons and objects
 [concaveman](https://github.com/joelgombin/concaveman) | A very fast 2D concave hull algorithm
-
-#### RASTER DATA MANIPULATION
-Package | Description
-------- | --------
+[gstat](https://cran.r-project.org/web/packages/gstat/) | Variogram modelling, spatio-temporal kriging, gridding; supports `sf` and `stars` objects
 raster | The de-facto standard raster data manipulation tool in R. Has TONS of features but its desing is somewhat old, and new features are not added frequently
 stars | A new package which integrates extremely well with `sf` and provides some advantages over `raster`, at the cost of features
 gdalcubes_R | New pacakge to deal with GDALcubes, which are collections of Earth Observation images as on demand data cubes (or multidimensional arrays)
@@ -204,7 +201,6 @@ testthat | de facto standard R package for testing packages and functions
 [remotes](https://remotes.r-lib.org/) | Install R packages from GitHub, GitLab, Bitbucket, git, svn repositories, URLs
 [fs](https://fs.r-lib.org/) | Provide cross platform filesystem operations, combines well with `dplyr` and `purrr`
 rcpp | R interface to C++
-
 
 #### RSTUDIO
 Package | Description

@@ -86,18 +86,14 @@ shinyWidgets | Set of additional `shiny` widgets
 shinydashboard
 flexdashboard | Easy interactive dashboards for R. Also integrates with `rmarkdown`
 
-#### PLOTTING OVER TILED (WEB) MAPS
+#### PLOTTING OVER TILED (WEB) MAPS, OBTAINING AND HANDLING SPATIAL BOUNDARIES, DIRECTIONS AND MAP DATA (maps, DEMs)
 Package | Description
 ------- | --------
 ggmap| Oldish interface to add google-like maps to ggplot
-googleway
+[googleway](https://symbolixau.github.io/googleway/) | Provides a mechanism to access various Google Maps APIs, including plotting a Google Map from R and overlaying it with shapes and markers, and retrieving data from the places, directions, roads, distances, geocoding, elevation and timezone APIs.
 RgoogleMaps
 tiler | Package to adapt background maps to a given CRS, ready to plot with `leaflet`
-
-#### SPATIAL BOUNDARIES, DIRECTIONS AND MAP DATA (maps, DEMs)
-Package | Description
-------- | --------
-rnaturalearth | Go-to package for boundaries and other spatial features data from [naturalearthdata](http://www.naturalearthdata.com/)
+rnaturalearth | Go-to package for obtaining boundaries and other spatial features data from [naturalearthdata](http://www.naturalearthdata.com/)
 rnaturalearthhires | High resolution data for `rnaturalearth`
 rnaturalearthdata | Additional resolution data for `rnaturalearth`
 rworldmap

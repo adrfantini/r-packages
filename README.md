@@ -39,6 +39,7 @@ ggstatsplot | Functions to provide ggplots with added very detailed statistical 
 [metR](https://github.com/eliocamp/metR) | Awesome package for easier analysis of metereological fields. Provides, other than EOF functions and the like, some amazing `ggplot2` extensions for contouring, highlighting areas, subsetting, better scales nd more
 [ggnewscale](https://github.com/eliocamp/ggnewscale) | Multiple scales with `ggplot2`; very simple to use! Similar to `relayer`
 [relayer](https://github.com/clauswilke/relayer) | Multiple scales with `ggplot2`, similar to `ggnewscale`
+[sugrrants](https://github.com/earowang/sugrrants) | Another `ggplot2` extension providing timeseries analysis, and in particular calendar plots
 
 #### COLORS AND SCALES
 Package | Description

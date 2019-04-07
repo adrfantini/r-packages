@@ -92,7 +92,7 @@ googleway
 RgoogleMaps
 tiler | Package to adapt background maps to a given CRS, ready to plot with `leaflet`
 
-#### SPATIAL BOUNDARIES AND DATA (maps, DEMs)
+#### SPATIAL BOUNDARIES, DIRECTIONS AND MAP DATA (maps, DEMs)
 Package | Description
 ------- | --------
 rnaturalearth | Go-to package for boundaries and other spatial features data from [naturalearthdata](http://www.naturalearthdata.com/)
@@ -106,6 +106,10 @@ maptools
 [rmapzen](https://tarakc02.github.io/rmapzen/) | A Mapzen API client for R
 [mapsap](https://github.com/michaeldorman/mapsapi/) | An interface to some Google Maps APIs, returning `sf` objects
 [elevatr](https://cran.r-project.org/web/packages/elevatr/index.html) | Access elevation data from several web services
+[stplanr](https://ropensci.github.io/stplanr/) | Excellent package for transport and route planning, includes interface to the [graphhopper](https://www.graphhopper.com/) direction and route planning API
+[graphhopper-r](https://github.com/crazycapivara/graphhopper-r) | Another interface to the [graphhopper](https://www.graphhopper.com/) direction and route planning API
+[mapsapi](https://github.com/michaeldorman/mapsapi/) | Interface to the Google Maps direction, geocode and distance APIs, integrates with `sf`, requires API key
+[gmapsdistance](https://github.com/rodazuero/gmapsdistance) | Another interface to the Google Maps distance matrix API; requires API key
 
 #### SPATIAL DATA MANIPULATION
 Package | Description

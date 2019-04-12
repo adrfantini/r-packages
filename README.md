@@ -1,17 +1,11 @@
 # A list of R packages I find useful
 
-#TEST TABLE to see how Jekyll renders it
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| [tmaptools](https://github.com/mtennekes/tmaptools)  | Content Cell  |
-| Content Cell  | _Content Cell_  |
-
 This list of R packages covers my main line of work: spatial data analysis, climate and hydrology. You'll find mostly pacakges dedicated to plotting (I use `ggplot2`), `netCDF` data handling, mapping and spatial features (mostly `sf`-related) and development. Additionally, there are some interesting links on these topics collected at the bottom of the page.
 
 Feel free to suggest a package by opening an [issue](https://github.com/adrfantini/r-packages/issues/new) in this repo!
 
 #### GENERIC PLOTTING
+
 Package | Description
 ------- | --------
 ggplot2 | The best plotting package, period
@@ -21,6 +15,7 @@ marmap | Import, analyse and plot bathymetries
 cartography | Thematic cartography
 
 #### GGPLOT2 EXTENSIONS (www.ggplot2-exts.org)
+
 Package | Description
 ------- | --------
 patchwork | Combining different plots on a grid
@@ -52,6 +47,7 @@ ggstatsplot | Functions to provide ggplots with added very detailed statistical 
 [sugrrants](https://github.com/earowang/sugrrants) | Another `ggplot2` extension providing timeseries analysis, and in particular calendar plots
 
 #### COLORS AND SCALES
+
 Package | Description
 ------- | --------
 RColorBrewer| Provides Cynthia Brewer color palettes, integrates with ggplot2
@@ -65,6 +61,7 @@ scico | Colour palettes developed by Fabio Crameri
 [tricolore](https://cran.r-project.org/web/packages/tricolore/index.html) | tricolor multivariate color scales, integrated with `ggplot2`. Similar in scope to `multiscales`
 
 #### INTERACTIVE PLOTTING/MANIPULATION (http://www.htmlwidgets.org/showcase_leaflet.html)
+
 Package | Description
 ------- | --------
 plotly | Interactive plotting with D3, can also import `ggplot` plots
@@ -84,6 +81,7 @@ dygraphs | Yet another graphical timeseries plotter
 [vegawidget](https://vegawidget.github.io/vegawidget/) | Low level access to the [Vega-Lite](https://vega.github.io/vega-lite/) API, to render as `htmlwidgets` for `shiny` integration 
 
 #### DASHBOARDS
+
 Package | Description
 ------- | --------
 shiny | The go-to R package for interactive web interfaces, dashboards
@@ -95,6 +93,7 @@ shinydashboard
 flexdashboard | Easy interactive dashboards for R. Also integrates with `rmarkdown`
 
 #### PLOTTING OVER TILED (WEB) MAPS, OBTAINING AND HANDLING SPATIAL BOUNDARIES, DIRECTIONS AND MAP DATA (maps, DEMs)
+
 Package | Description
 ------- | --------
 ggmap| Oldish interface to add google-like maps to ggplot
@@ -118,6 +117,7 @@ maptools
 [gmapsdistance](https://github.com/rodazuero/gmapsdistance) | Another interface to the Google Maps distance matrix API; requires API key
 
 #### SPATIAL DATA MANIPULATION
+
 Package | Description
 ------- | --------
 sf| Simple features for R
@@ -134,6 +134,7 @@ gdalcubes_R | New pacakge to deal with GDALcubes, which are collections of Earth
 [velox](http://philipphunziker.com/velox/) | Fast raster extraction and manipulation. Very fast. Integrates with `raster` and `sf`
 
 #### NETCDF DATA HANDLING
+
 Package | Description
 ------- | --------
 ncdf4 | The main low level package for dealing with netCDF data. Has some drawbacks
@@ -143,12 +144,14 @@ ncmeta | Easy metadata retrieval from netCDF files
 netcdfgeom | Reads and writes geometry data (points, lines and polygons) to/from netCDF files
 
 #### UNIT HANDLING
+
 Package | Description
 ------- | --------
 units | Deal with units in a clear and automatic way, using `udunits2`
 udunits2 | R bindings to the Unidata `udunits2` library
 
 #### HANDLING TABLES
+
 Package | Description
 ------- | --------
 dplyr
@@ -157,6 +160,7 @@ tidyr | Set of functions to help tidy data
 purrr | Enhanced functional programming with R, via `map*` functions
 
 #### DEALING WITH TIME
+
 Package | Description
 ------- | --------
 lubridate | Tidy date handling package
@@ -169,6 +173,7 @@ forecast
 PCICt | 360-day calendars
 
 #### DATABASES
+
 Package | Description
 ------- | --------
 [dbplyr](https://github.com/tidyverse/dbplyr) | `dplyr` interface for (also online) databasesl; uses `DBI`
@@ -176,6 +181,7 @@ RSQLite | R interface to SQL
 [DBI](https://dbi.r-dbi.org/) | Common interface between R and Database Management Systems
 
 #### PARALLEL COMPUTING
+
 Package | Description
 ------- | --------
 future | modern parallel execution API supporting several backends. Execute R code asyncronously in the background, potentially with many cores
@@ -191,6 +197,7 @@ pbmcapply | Parallel `apply` with progress bars, uses `future`. Fastest progress
 clustermq | Very low overhead multiprocessing via `ZeroMQ`. Has live load balancing
 
 #### LOGGING
+
 Package | Description
 ------- | --------
 futile.logger| Best logger there is
@@ -200,6 +207,7 @@ logging
 log4r
 
 #### DEVELOPMENT
+
 Package | Description
 ------- | --------
 profvis | Profile your code, and visualise performance interactively
@@ -214,11 +222,13 @@ testthat | de facto standard R package for testing packages and functions
 rcpp | R interface to C++
 
 #### RSTUDIO
+
 Package | Description
 ------- | --------
 [addinslist](https://github.com/daattali/addinslist) | List of useful R studio addins
 
 #### MISC
+
 Package | Description
 ------- | --------
 drake | Toll for reproducible research: define your planned workflow, rerun only what changed
@@ -237,11 +247,13 @@ skimr | Very nice package for computing and showing better summary statistics. V
 [eurostat](https://cran.r-project.org/web/packages/eurostat/index.html) | Access, search and download the Eurostat database
 
 #### TASK VIEWS
+
 - https://cloud.r-project.org/web/views/SpatioTemporal.html
 - https://cloud.r-project.org/web/views/Spatial.html
 - https://cloud.r-project.org/web/views/TimeSeries.html
 
 #### ADDITIONAL LINKS
+
 - https://github.com/qinwf/awesome-R ; https://awesome-r.com/
 - http://r-pkgs.had.co.nz/ (how to write R pkgs)
 - https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages

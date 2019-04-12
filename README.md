@@ -98,7 +98,7 @@ Package | Description
 ------- | --------
 ggmap| Oldish interface to add google-like maps to ggplot
 [googleway](https://symbolixau.github.io/googleway/) | Provides a mechanism to access various Google Maps APIs, including plotting a Google Map from R and overlaying it with shapes and markers, and retrieving data from the places, directions, roads, distances, geocoding, elevation and timezone APIs.
-RgoogleMaps
+RgoogleMaps |
 tiler | Package to adapt background maps to a given CRS, ready to plot with `leaflet`
 rnaturalearth | Go-to package for obtaining boundaries and other spatial features data from [naturalearthdata](http://www.naturalearthdata.com/)
 rnaturalearthhires | High resolution data for `rnaturalearth`

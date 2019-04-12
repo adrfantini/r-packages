@@ -53,9 +53,9 @@ Package | Description
 RColorBrewer| Provides Cynthia Brewer color palettes, integrates with ggplot2
 [scales](https://scales.r-lib.org/) | Create color scales, integrates some missing features in `ggplot2`
 colorpiler| Additional color palettes, including Brewer's. ggplot integration supported
-colourpicker
-colourvalues
-colorspace
+colourpicker |
+colourvalues |
+colorspace |
 [colormap](https://github.com/bhaskarvk/colormap) | Generate colors from color palettes defined in Node.js's colormap module; integrates with `ggplot2`
 scico | Colour palettes developed by Fabio Crameri
 [tricolore](https://cran.r-project.org/web/packages/tricolore/index.html) | tricolor multivariate color scales, integrated with `ggplot2`. Similar in scope to `multiscales`
@@ -78,7 +78,7 @@ r2d3| Low-level D3.js visualizations
 rAmCharts | Interactive charts based on amcharts.js
 dygraphs | Yet another graphical timeseries plotter
 [vegalite](https://github.com/hrbrmstr/vegalite) | `ggplot2`-like "bindings" for [Vega-Lite](https://vega.github.io/vega-lite/)
-[vegawidget](https://vegawidget.github.io/vegawidget/) | Low level access to the [Vega-Lite](https://vega.github.io/vega-lite/) API, to render as `htmlwidgets` for `shiny` integration 
+[vegawidget](https://vegawidget.github.io/vegawidget/) | Low level access to the [Vega-Lite](https://vega.github.io/vega-lite/) API, to render as `htmlwidgets` for `shiny` integration
 
 #### DASHBOARDS
 
@@ -89,7 +89,7 @@ shiny | The go-to R package for interactive web interfaces, dashboards
 shinyjs | Set of functions to complete missing `shiny` features
 [shinyBS](https://ebailey78.github.io/shinyBS/) | Add additional functionality and interactivity to your `shiny` applications (last commit 2016)
 shinyWidgets | Set of additional `shiny` widgets
-shinydashboard
+shinydashboard |
 flexdashboard | Easy interactive dashboards for R. Also integrates with `rmarkdown`
 
 #### PLOTTING OVER TILED (WEB) MAPS, OBTAINING AND HANDLING SPATIAL BOUNDARIES, DIRECTIONS AND MAP DATA (maps, DEMs)
@@ -103,11 +103,11 @@ tiler | Package to adapt background maps to a given CRS, ready to plot with `lea
 rnaturalearth | Go-to package for obtaining boundaries and other spatial features data from [naturalearthdata](http://www.naturalearthdata.com/)
 rnaturalearthhires | High resolution data for `rnaturalearth`
 rnaturalearthdata | Additional resolution data for `rnaturalearth`
-rworldmap
-rworldxtra
-maps
-mapdata
-maptools
+rworldmap |
+rworldxtra |
+maps |
+mapdata |
+maptools |
 [rmapzen](https://tarakc02.github.io/rmapzen/) | A Mapzen API client for R
 [mapsap](https://github.com/michaeldorman/mapsapi/) | An interface to some Google Maps APIs, returning `sf` objects
 [elevatr](https://cran.r-project.org/web/packages/elevatr/index.html) | Access elevation data from several web services
@@ -154,7 +154,7 @@ udunits2 | R bindings to the Unidata `udunits2` library
 
 Package | Description
 ------- | --------
-dplyr
+dplyr | Best tool for general data prying in tydy format (column = variable, row = observation)
 data.table| Similar in scope to dplyr, but in general quite a bit faster, albeit with less clear grammar. Also provides the best text file reader, fread
 tidyr | Set of functions to help tidy data
 purrr | Enhanced functional programming with R, via `map*` functions
@@ -167,9 +167,9 @@ lubridate | Tidy date handling package
 [tsibble](https://github.com/tidyverts/tsibble) | Tools to integrate `tibble`s with tidy time manipualtion (aggregation, etc.). Also provides rolling means and integrates with `future`s!
 [feasts](https://github.com/tidyverts/feasts) | Extend `tsibble` with additional functions, compositions, and visualisations; used by `fable`
 [fable](https://github.com/tidyverts/fable) | Methods and tools for displaying and analysing univariate time series forecasts; uses `feasts`
-zoo
-xts
-forecast
+zoo |
+xts |
+forecast |
 PCICt | 360-day calendars
 
 #### DATABASES
@@ -203,8 +203,6 @@ Package | Description
 futile.logger| Best logger there is
 tryCatchLog| Wrapper to futile.logger for catching standard warnings and errors
 assertr| Error controls in magrittr pipelines
-logging
-log4r
 
 #### DEVELOPMENT
 
@@ -238,9 +236,9 @@ broom | Tidy and prepare for plotting the output of common model functions / fit
 forcats | Tidy tools for handling factors
 [nml](https://github.com/jsta/nml) | R interface to Fortran namelists
 reticulate | use Python via R
-tidytext
+tidytext |
 [colorout](https://github.com/jalvesaq/colorout) | colorize your R terminal
-glue| Handy replacement for paste()
+glue | Handy replacement for paste()
 stringr | Better string handling
 readr | Fast and friendly tidy way to read rectangular data (like csv, tsv, and fwf)
 skimr | Very nice package for computing and showing better summary statistics. Very, very nice.

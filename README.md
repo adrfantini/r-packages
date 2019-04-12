@@ -1,4 +1,11 @@
 # A list of R packages I find useful
+
+#TEST TABLE to see how Jekyll renders it
+| First Header  | Second Header |
+| ------------- | ------------- |
+| [tmaptools](https://github.com/mtennekes/tmaptools)  | Content Cell  |
+| Content Cell  | _Content Cell_  |
+
 This list of R packages covers my main line of work: spatial data analysis, climate and hydrology. You'll find mostly pacakges dedicated to plotting (I use `ggplot2`), `netCDF` data handling, mapping and spatial features (mostly `sf`-related) and development. Additionally, there are some interesting links on these topics collected at the bottom of the page.
 
 Feel free to suggest a package by opening an [issue](https://github.com/adrfantini/r-packages/issues/new) in this repo!

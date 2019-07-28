@@ -45,6 +45,7 @@ ggstatsplot | Functions to provide ggplots with added very detailed statistical 
 [ggnewscale](https://github.com/eliocamp/ggnewscale) | Multiple scales with `ggplot2`; very simple to use! Similar to `relayer`
 [relayer](https://github.com/clauswilke/relayer) | Multiple scales with `ggplot2`, similar to `ggnewscale`
 [sugrrants](https://github.com/earowang/sugrrants) | Another `ggplot2` extension providing timeseries analysis, and in particular calendar plots
+[ggisoband](https://github.com/clauswilke/ggisoband) | ggplot2 interface to the isoband library which can generate contour lines and polygons
 
 #### COLORS AND SCALES
 

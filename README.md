@@ -159,6 +159,7 @@ dplyr | Best tool for general data prying in tydy format (column = variable, row
 data.table| Similar in scope to dplyr, but in general quite a bit faster, albeit with less clear grammar. Also provides the best text file reader, fread
 tidyr | Set of functions to help tidy data
 purrr | Enhanced functional programming with R, via `map*` functions
+[vroom](https://github.com/r-lib/vroom) | Super-duper fast reading of delimited files
 
 #### DEALING WITH TIME
 

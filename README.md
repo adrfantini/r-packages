@@ -157,6 +157,7 @@ Package | Description
 ------- | --------
 dplyr | Best tool for general data prying in tydy format (column = variable, row = observation)
 data.table| Similar in scope to dplyr, but in general quite a bit faster, albeit with less clear grammar. Also provides the best text file reader, fread
+[dtplyr](https://dtplyr.tidyverse.org/) | Translational layer between dplyr and data.table: the ease of use of the former with the speed of the latter!
 tidyr | Set of functions to help tidy data
 purrr | Enhanced functional programming with R, via `map*` functions
 [vroom](https://github.com/r-lib/vroom) | Super-duper fast reading of delimited files
@@ -192,6 +193,7 @@ future | modern parallel execution API supporting several backends. Execute R co
 future.batchtools | `future` extension to provide PBS, SLURM... access via `batchtools`
 future.apply |  Parallel `apply` integration with `future`s
 furrr | `purrr`... in the `future`
+[multidplyr](https://multidplyr.tidyverse.org/) | A parallel backend to dplyr
 foreach | Simple parallelised for loops
 batchtools | Provides tools to interact with batch schedulers such as SLURM, TORQUE, OpenPBS...
 [rslurm](https://github.com/SESYNC-ci/rslurm) | Yet another tool to submit and manage SLURM jobs

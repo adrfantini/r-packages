@@ -56,7 +56,7 @@ RColorBrewer| Provides Cynthia Brewer color palettes, integrates with ggplot2
 colorpiler| Additional color palettes, including Brewer's. ggplot integration supported
 colourpicker |
 colourvalues |
-colorspace |
+[colorspace](http://colorspace.r-forge.r-project.org/) | Excellent HCL-based color palettes, also provides ggplot scales
 [colormap](https://github.com/bhaskarvk/colormap) | Generate colors from color palettes defined in Node.js's colormap module; integrates with `ggplot2`
 scico | Colour palettes developed by Fabio Crameri
 [tricolore](https://cran.r-project.org/web/packages/tricolore/index.html) | tricolor multivariate color scales, integrated with `ggplot2`. Similar in scope to `multiscales`

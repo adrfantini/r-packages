@@ -37,6 +37,7 @@ ggridges| Ridgeline plots
 ggpmisc | Adding tables, ridges and valleys, fit equations with R2, density filters
 ggforce | {Zoomed and paginated} facets; {arcs, circles, gradient links, sina (violin-like)} plots, additional transformations
 ggbeeswarm| better scatterplots without overlaps
+[gghalves](https://github.com/erocoar/gghalves) | Half-half geometries
 ggpirate| pirate plots, a kind of advanced boxplots
 ggpol | A fem geometris, some of which linked to politics (parliament plots)
 [ggperiodic](https://github.com/eliocamp/ggperiodic) | Periodic plots, such as 360degree and 24-h circle plots without jumps in coord_polar

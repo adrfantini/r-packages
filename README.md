@@ -209,6 +209,7 @@ Package | Description
 futile.logger| Best logger there is
 tryCatchLog| Wrapper to futile.logger for catching standard warnings and errors
 assertr| Error controls in magrittr pipelines
+[progressr](https://github.com/HenrikBengtsson/progressr) | Framework for reporting progress, works with `shiny`, `futures` and more
 
 #### DEVELOPMENT
 
